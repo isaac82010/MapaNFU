@@ -4,7 +4,7 @@
 import pandas as pd 
 import folium
 
-# Leer los archivos csv y convertir todo a string
+# Leer los archivos csv y convertir todo a string con convert_dtypes() OJO con esto que no siempre funciona como debería
 df = pd.read_excel("/content/NFU_RN2000.csv").convert_dtypes()
 df2 = pd.read_excel('/content/NFU.csv').convert_dtypes()
 
