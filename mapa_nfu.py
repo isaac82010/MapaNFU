@@ -113,7 +113,8 @@ legend_html = '''
 '''
 
 m.get_root().html.add_child(folium.Element(legend_html))
+
 # Guarda el mapa en un archivo HTML
 m.save('mapadef.html')
-m
+
 
